@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NZ:wght@100..400&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#head{
+    background-color: rgb(8, 69, 110);
+    height: 5vh;
+    
+}
+header{
+    text-align: center;
+    color: white;
+    padding: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+#navbar{
+    display: flex;
+ 
+    
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+#fixed{
+    position: fixed;
+    background-color: snow;margin-top: -50px;
+}
+li{
+    list-style: none;
+    margin-left: 60px;
+    margin-top: 40px;
+    font-size: smaller;
+    color: grey;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.logo{
+    margin-left: 30px;
+    margin-top: 35px;
+}
+.line{
+   height: 12vh;
+   width: 1px;
+   border: 1px solid rgb(194, 191, 191);
+   margin-left: 10px;
+}
+.line2{
+    height: 12vh;
+    width: 1px;
+    border: 1px solid rgb(194, 191, 191);
+    margin-left: 50px;
+ }
+.icon
+{
+ font-size: 25px;
+ margin-left: 30px;
+ margin-top: 35px;
+
+}
+.icon2
+{
+ font-size: 25px;
+ margin-left: 30px;
+ margin-top: 35px;
+
+}
+.bag{
+    float: right;
+    font-size: 30px;
+    margin-right:  40px;
+    margin-top: 80px;
+}
+.high{
+    font-family:"Great Vibes";
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  color: rgb(133, 85, 13);
+  text-align: center;
+  font-size: 50px;
+
+  letter-spacing: 4px;
+  margin-top: 50px;
+
+}
+.high2{
+    margin-top: 30px;
+    text-align: center;
+}
+#img{
+    display: flex;
+    gap: 70px;
+    margin-left: 50px;
+
+}
+button a{
+    text-decoration: none;
+    color: rgb(12, 103, 156);
+}
+.btn-primary{
+    position: relative;
+    bottom: 100px;
+    left: 160px;
+    height: 6vh;
+    width: 200px;
+    border: transparent;
+   
+}
+#carouselExample{
+  z-index: -1;
+  
+}
+button:hover{
+    background-color: rgb(14, 90, 109);
+}
+
+.btn-primary:hover{
+    background-color: rgb(14, 90, 109);
+    color: white;
+ 
+
+   
+}
+button .anc:hover{
+    color: beige;
+}
+
+.shop{
+
+
+color: beige;
+}
+#bg{
+    background-color: rgb(223, 218, 218);
+}
+#img1{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 50px;
+   
+}
+#bttn{
+    position: relative;
+    left: 10px;
+    bottom: 70px;
+}
+#sponser{
+
+    display: flex;
+    margin-top: 100px;
+    margin-left: 150px;
+    gap: 100px;
+
+}
+.pro{
+    font-size: 25px;
+    font-family: cursive;
+    color: rgb(95, 86, 4);
+    margin-top: 90px;
+    margin-left: 50px;
+}
+#bottom{
+    display: flex;
+    background-color: rgb(255, 230, 234);
+    margin-top: 50px;
+    padding: 60px;
+}
+.end{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(4, 4, 100);
+    margin-top: 60px;
+    text-align: center;
+}
+#footer{
+    background-color: rgb(192, 73, 73);
+    display: flex;
+    gap: 30px;
+    color: white;
+    
+}
+#btn{
+    margin-left: -120px;
+}
+ 
+
+.img-hover-zoom--blur img {
+    transition: transform 1s, filter 2s ease-in-out;
+    filter: blur(2px);
+    transform: scale(1.2);
+  }
+  
+  /* The Transformation */
+  .img-hover-zoom--blur:hover img {
+    filter: blur(0);
+    transform: scale(1);
+  }
+  @media only screen and (max-width: 600px){
+    #content{
+        display: flex;
+        flex-direction: column;
+    }
+  }
+  @media only screen and (max-width: 600px){
+    .list{
+        display: none;
+    }
+  }
+  @media only screen and (max-width: 600px){
+    .line {
+        display: none;
+    }
+    .line2 {
+        display: none;
+    }
+    .icon{
+        display: none;
+    }
+    .icon2{
+        display: none;
+    }
+    .logo{
+       margin-left: 200px;
+     
+    }
+  }
